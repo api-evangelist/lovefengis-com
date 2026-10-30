@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-lovefengis-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://lovefengis.com/
+lovefengis provides digital advertising management and SEO services for businesses across Turkey. The company offers campaign creation and management on Google, Meta, and emerging ChatGPT Ads platforms, as well as technical SEO audits, on‑page optimization, and AI‑assisted content creation. Services are delivered remotely with free 15‑minute consultations, transparent pricing, and ongoing performance reporting. The platform also exposes a public OpenAPI specification at /openapi.json for programmatic access to its service catalog.
+
+**Areas:** Company · Digital Marketing · SEO · Advertising · Web Services · Turkey
+
+## lovefengis-com on APIs.io
+
+Everything profiled for lovefengis-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lovefengis-com/](https://apis.io/providers/lovefengis-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (3)
+
+- [lovefengis-com Batch API](https://apis.io/apis/lovefengis-com/lovefengis-com-batch-api/) — Several reads in one request
+- [lovefengis-com Catalog API](https://apis.io/apis/lovefengis-com/lovefengis-com-catalog-api/) — Services and prices
+- [lovefengis-com Jobs API](https://apis.io/apis/lovefengis-com/lovefengis-com-jobs-api/) — Asynchronous exports (202 Accepted, then poll)
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Lovefengis Com Agentic Access](https://apis.io/agentic-access/lovefengis-com/lovefengis-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BatchResponse](https://apis.io/schemas/lovefengis-com/lovefengis-com-batch-response/)
+- [JobRequest](https://apis.io/schemas/lovefengis-com/lovefengis-com-job-request/)
+- [Meta](https://apis.io/schemas/lovefengis-com/lovefengis-com-meta/)
+- [PriceWithService](https://apis.io/schemas/lovefengis-com/lovefengis-com-price-with-service/)
+- [Service](https://apis.io/schemas/lovefengis-com/lovefengis-com-service/)
+- [ServiceSummary](https://apis.io/schemas/lovefengis-com/lovefengis-com-service-summary/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Lovefengis Com Context](https://apis.io/jsonld/lovefengis-com/lovefengis-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [lovefengis-com API Rules](https://apis.io/rules/lovefengis-com/lovefengis-com-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Lovefengis Com Authentication](https://apis.io/security/lovefengis-com/lovefengis-com-authentication/)
+- [Lovefengis Com Domain Security](https://apis.io/security/lovefengis-com/lovefengis-com-domain-security/)
+- [Lovefengis Com Vulnerability Disclosure](https://apis.io/security/lovefengis-com/lovefengis-com-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Lovefengis Com Scopes](https://apis.io/scopes/lovefengis-com/lovefengis-com-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Lovefengis Com Plans Pricing](https://apis.io/plans/lovefengis-com/lovefengis-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Lovefengis Com Rate Limits](https://apis.io/rate-limits/lovefengis-com/lovefengis-com-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://lovefengis.com/)
+- [Documentation](https://lovefengis.com/index.md)
+- [Getting started](https://lovefengis.com/hizmetler)
+- [API reference](https://lovefengis.com/openapi.json)
+- [Pricing](https://lovefengis.com/hizmetler)
+- [Blog](https://lovefengis.com/blog)
+- [GitHub](https://github.com/systemonster)
+
+## API Evangelist rating
+
+**Kin Score 52.0** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 60.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.7 |
+| Developer ergonomics | 58.8 |
+| Access clarity | 10.5 |
+
+**Agent readiness 68.6** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 32.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lovefengis-com/](https://apis.io/providers/lovefengis-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for lovefengis-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lovefengis-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
